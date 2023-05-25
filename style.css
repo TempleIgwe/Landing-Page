@@ -26,8 +26,76 @@
 #sign li a{
     text-decoration: none;
     padding: 0 20px;
-    color: rgb(46, 41, 41);
-    font-weight: 500;
+    color: #4F5665;
+    
+    
     
 }
 
+#sign #sign-in {
+    color:rgb(12, 11, 11);
+    font-weight: 900;
+
+}
+
+#sign #sign-up {
+    color: #F53838;
+    font-weight: 600;
+    border: 1px solid #F53838;
+    padding: 12px 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#hero {
+   margin: 120px 100px;
+}
+#hero h2 {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    
+    
+}
+
+#hero h2 span {
+    font-weight: 900;
+    color: black;
+    font-weight: 900;
+    
+}
+
+#hero .para {
+    padding: 20px 0;
+}
+
+#hero p {
+    color: #616368;
+    line-height: 30px;
+    
+}
+
+#hero button {
+    padding: 20px 80px;
+    margin-top: 30px;
+    border: none;
+    background-color: #F53838;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 10px;
+  
+}
+
+#about i {
+    color: #F53838;
+    background-color: #f8dfdf;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+}
+
+
+
+ 
