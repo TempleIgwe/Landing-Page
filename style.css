@@ -326,6 +326,34 @@ body{
 .box .cards {
     border: 2px solid grey;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1.5rem 3rem 2rem 1.5rem;
+}
+.box .card1 {
+    border: 2px solid #F53838;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.flex .customer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex .customer-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex .customer-rating .fa-star {
+    font-size: 12px;
+    color: #FEA250;
+}
