@@ -6,8 +6,9 @@
 }
 
 body{
-    height: 7500px;
+    background: #F6F6F6;
 }
+
 
 .img {
     width: 100%;
@@ -17,6 +18,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding-top: 40px;
+  
 }
 
 #navbar,
@@ -290,12 +292,15 @@ body{
 
 #feedback {
     background: #F6F6F6;
+    position: relative;
+    padding-bottom: 100px;
+    
 }
  
 .feedback-detail  {
     padding-top: 120px;
     text-align: center;
-    /* padding-bottom: 40px; */
+    
     
 }
 
@@ -334,7 +339,7 @@ body{
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
 }
@@ -343,17 +348,154 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .flex .customer-rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .flex .customer-rating .fa-star {
     font-size: 12px;
     color: #FEA250;
+}
+.para {
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.customer-loc h6 {
+    font-size: 18px;
+}
+
+.customer-loc p {
+    font-size: 14px;
+}
+
+.next-page {
+    padding: 20px 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-button{
+    display: flex;
+
+}
+
+.page-button .dot {
+    width: 40px;
+    height: 16px;
+    border-radius: 10px;
+    padding: 7px;
+    background: #F53838;
+    margin-right: 10px;
+}
+
+.page-button .dot1 {
+    border-radius: 20px;
+    padding: 7px;
+    margin-right: 10px;
+    background: #DDE0E4;
+    height: 18px;
+    
+}
+
+.next-page .fa-arrow-left {
+    border: 2px solid #F53838 ;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 20px;
+    color: #F53838;
+
+}
+
+.next-page .fa-arrow-right {
+    background: #F53838 ;
+    padding: 20px;
+    border-radius: 40px;
+    color: #fff;
+
+}
+
+#subscription{
+    width: 80vw;
+    background: #fff;
+    padding:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 4610px;
+    left: 140px;
+    
+   
+}
+
+#subscription .sub-details h1{
+    line-height: 40px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+#subscription .sub-details p{
+ margin-top: 20px;
+}
+
+#subscription button {
+    padding: 20px 80px;
+    margin-top: 30px;
+    border: none;
+    background-color: #F53838;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px 60px;
+    background-color: #e9e9e9;
+    
+}
+
+#footer ul li {
+    list-style: none;
+    color: #4F5665;
+    
+}
+
+#footer #social-media p{
+    color: #4F5665;
+    font-size: 16px;
+    padding: 10px 2px 2px;
+}
+
+#social-media .fa-brands {
+    color: #F53838;
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 20px;
+    margin: 40px 10px 20px 0;
+}
+
+#social-media .copyright {
+    color: #AFB5C0;
+}
+
+#footer .more-activities {
+    line-height: 50px;
+    padding-top: 90px;
+}
+
+#footer #earn{
+    margin-top: -200px;
+    
 }
